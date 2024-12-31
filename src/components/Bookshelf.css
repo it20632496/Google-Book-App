@@ -1,0 +1,32 @@
+/* src/components/Bookshelf.css */
+.bookshelf-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .bookshelf-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .book-thumbnail {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: #f04;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c03;
+  }
+  

@@ -1,0 +1,18 @@
+.category-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .category-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .category-card h4 {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
