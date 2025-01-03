@@ -7,6 +7,8 @@ import Bookshelf from "./components/Bookshelf";
 import { BookshelfProvider } from "./context/bookshelfcontext";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/Signup";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 function App() {
